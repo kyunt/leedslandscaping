@@ -59,8 +59,7 @@ p {
     top: 0;
 }
 
-.header-cont,
-.header-cont-other {
+.header-cont {
     height: 30em;
     width: 100%;
     display: flex;
@@ -74,25 +73,17 @@ p {
     position: relative;
 }
 
-.header-cont-other {
-    background-image: url(./images/720lawn.webp);
+#sub-head {
+    background-image: url(./images/grass2.webp);
     height: 24em;
 }
 
-.header-cont h1,
-.header-cont-other h1 {
+.header-cont h1 {
     font-size: 3em;
     font-weight: 700;
     color: #fbfbfb;
     margin-top: 1em;
     text-align: center;
-}
-
-.header-bottom {
-    position: absolute;
-    bottom: -0.5em;
-    left: 0;
-    width: 100%;
 }
 
 .logo {
@@ -196,6 +187,10 @@ p {
     flex-direction: column;
     text-align: center;
     margin-top: 6em;
+}
+
+#sub-hero {
+    height: 10em;
 }
 
 .hero h1 {
@@ -828,7 +823,7 @@ form .textarea-field .item {
         position: absolute;
         inset: 100px 0 0 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-direction: column;
         padding: 6.9em 0;
         height: 13em;
@@ -840,7 +835,7 @@ form .textarea-field .item {
     }
 
     .primary-navigation[data-visible="true"] {
-        transition: 6000ms ease-in-out;
+        transition: 600ms ease-in-out;
         z-index: 1;
     }
 
@@ -848,7 +843,9 @@ form .textarea-field .item {
         padding: 0.6em 0;
         margin: 0;
         width: 100%;
+        height: 2.8em;
         border-bottom: #fbfbfb 0.1px solid;
+        display: flex;
     }
 
     .active {
@@ -925,15 +922,17 @@ form .textarea-field .item {
         background: url(./images/xwhite.svg) no-repeat center;
     }
 
-    .header-cont,
-    .header-cont-other {
+    .header-cont{
         height: 40em;
         background-image: none;
         transition: 400ms ease-in-out;
     }
 
-    .header-cont[data-nav-open="true"],
-    .header-cont-other[data-nav-open="true"] {
+    #sub-head {
+        background-image: none;
+    }
+
+    .header-cont[data-nav-open="true"] {
         transition: 400ms ease-in-out;
         margin-bottom: 18.6em;
     }
@@ -949,10 +948,21 @@ form .textarea-field .item {
         position: relative;
     }
 
+    #sub-hero {
+        background-image: url(./images/grass2.webp);
+        height: 30em;
+        margin-top: 100px;
+    }
+
     .hero[data-nav-open="true"] {
         transform: translateY(18.6em);
         transition: 400ms ease-in-out;
         margin-top: 3em;
+    }
+
+    #sub-hero[data-nav-open="true"] {
+        transform: translateY(18.6em);
+        margin-top: 7em;
     }
 }
 
@@ -1013,6 +1023,10 @@ form .textarea-field .item {
 
     .hero {
         padding: 5em;
+    }
+
+    #sub-hero {
+        padding: 0;
     }
 
     .hero h1 {
@@ -1099,8 +1113,8 @@ form .textarea-field .item {
         position: relative;
     }
 
-    .header-cont-other .primary-header {
-        margin-top: 7.5em;
+    #sub-header {
+        margin-top: 4em;
     }
 
     .logo h1 {
@@ -1115,6 +1129,11 @@ form .textarea-field .item {
         margin-top: 0;
         margin-bottom: 8em;
     }
+
+    #sub-hero {
+        margin-bottom: 8em;
+    }
+
 
     .contact-button {
         padding: 1.4em 2em;
