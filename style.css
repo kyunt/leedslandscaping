@@ -559,6 +559,17 @@ p {
     margin: 1em 0;
 }
 
+/* Gallery */
+
+.gallery-img {
+    height: 24em;
+    width: 100%;
+    padding: 2em;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 /* Footer */
 
 
@@ -1039,6 +1050,11 @@ form .textarea-field .item {
 
     .point-img {
         height: 8em;
+        width: 100%;
+    }
+
+    .gallery-img {
+        height: 30em;
         width: 100%;
     }
     
