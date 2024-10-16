@@ -162,11 +162,11 @@ p {
 /* Hero */
 
 .upper-text {
-    font-size: 1em;
     font-weight: 600;
     text-align: left;
     color: #9fc612;
     opacity: 1;
+    font-size: 1.4em;
 } 
 
 .hidden {
@@ -202,7 +202,6 @@ p {
 }
 
 .hero-cont p {
-    font-size: 1em;
     color: #9fc612;
     opacity: 1;
     font-weight: 600;
@@ -219,7 +218,7 @@ p {
     padding: 1em 2em;
     border: none;
     border-radius: 0.4em;
-    font-size: 0.9em;
+    font-size: 1.2em;
     font-weight: 700;
     margin-top: 1em;
     cursor: pointer;
@@ -256,7 +255,6 @@ p {
 
 .about p,
 .points p {
-    font-size: 1em;
     color: #9a9a9a;
     opacity: 1;
 }
@@ -295,7 +293,6 @@ p {
 }
 
 .points-other p {
-    font-size: 1em;
     color: #9fc612;
     opacity: 1;
 }
@@ -327,7 +324,6 @@ p {
     left: 6px;
     top: 0;
     transition: 0.2s;
-    font-size: 1.3em;
 }
 
 .point p a:hover:after {
@@ -406,7 +402,6 @@ p {
 }
 
 .review p {
-    font-size: 1em;
     opacity: 1;
 }
 
@@ -457,7 +452,6 @@ p {
 }
 
 .why-text p {
-    font-size: 1em;
     font-weight: 400;
     margin-top: 1em;
     color: #fbfbfb;
@@ -514,7 +508,6 @@ p {
 }
 
 .services p {
-    font-size: 1em;
     margin-top: 1em;
 }
 
@@ -709,7 +702,6 @@ p {
 
 .second-footer p {
     opacity: 1;
-    font-size: 1em;
     color: #fbfbfb;
     font-weight: 500;
     border-top: #fbfbfb 0.1em solid;
@@ -1155,7 +1147,7 @@ form .textarea-field .item {
         padding: 1.4em 2em;
         border: none;
         border-radius: 0.4em;
-        font-size: 1.2em;
+        font-size: 1.4em;
         margin-top: 2em;
     }
 
